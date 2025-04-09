@@ -2,30 +2,31 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rock Paper Scissors score using objects Game</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors score using objects Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Rock Paper Scissors</h1>
-    <h3 class="js-score score"></h3>
-    <p id="demo"></p>
+  <h1>Rock Paper Scissors</h1>
+  <p class="js-reset-confirmation"></p>
+  <h3 class="js-score score"></h3>
 
-    <button class="btn" onclick="playGame('✊🏼')"> ✊🏼 </button>
 
-    <button class="btn" onclick="playGame('🖐🏼');"> 🖐🏼 </button>
+  <button class="btn js-rock-button"> ✊🏼 </button>
 
-    <button class="btn" onclick="playGame('✌🏼');"> ✌🏼 </button>
+  <button class="btn js-paper-button"> 🖐🏼 </button>
 
-    <h2 class="js-result result">Result</h2>
-    <h3 class="js-moves moves">You  -  Computer</h3>
-    
-     <br> 
-    <button onclick="resetButton()" class="reset-btn">Reset Score</button>
-    <button class="auto-play-button" onclick="autoPlay();">Auto Play</button>
+  <button class="btn js-scissors-button"> ✌🏼 </button>
+
+  <h2 class="js-result result">Result</h2>
+  <h3 class="js-moves moves">You - Computer</h3>
+
+  <br>
+  <button class="reset-btn js-reset-button">Reset Score</button>
+  <button class="auto-play-button js-auto-play-button">Auto Play</button>
 
   <script src="script.js"></script>
 
